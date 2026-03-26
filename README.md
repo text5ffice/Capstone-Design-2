@@ -15,5 +15,8 @@
 <br>팀원: 박세정
 <br>팀원: 최용석
 
+<br>
+<br>
 ※ 회의록은 매번 padlet을 통해 추가 등록하도록 한다.
+<br>
 https://padlet.com/ihlee90/2-2026-1-b8b4jlx0fez498e5
