@@ -1,0 +1,15 @@
+pip install opencv-python numpy
+
+python capstone2\main.py           	# 더미 시나리오 자동 재생
+python capstone2\main.py --mode mouse  	# 마우스로 수동 테스트
+
+python capstone2\zone_setup.py		# 위험구역 임의 지정
+
+[위험구역 설정]
+클릭: 꼭짓점 추가  |  Enter: 구역저장  |  Back: 점취소
+D: 마지막 구역 삭제  |  R: 초기화  |  +/-: 주의구역 크기  |  ESC: 저장 종료
+
+2D 픽셀로 위험 구역 지정
+
+3D 카메라로 받은 영상을 2D로 변환하여
+탑뷰로 보며 작업자의 발 좌표를 기준으로 위험 구역 진입 판단
