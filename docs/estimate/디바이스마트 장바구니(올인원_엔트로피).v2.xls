@@ -1,0 +1,307 @@
+
+		<html xmlns:v='urn:schemas-microsoft-com:vml' xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'>
+		<head></head>
+		
+		<meta http-equiv="Content-Type" content="application/vnd.ms-excel;charset=utf-8">
+		<style>
+		<!--table
+			{mso-displayed-decimal-separator:"\.";
+			mso-displayed-thousand-separator:"\,";}
+		@page
+		{margin:1.0in .75in 1.0in .75in;
+		mso-header-margin:.5in;
+		mso-footer-margin:.5in;}
+		.number {mso-number-format:"@"}
+		*{
+			color:black;
+			font-family:돋움, monospace;
+			font-size:10.0pt;
+		}
+		td  {mso-number-format:\@;}
+		-->
+		</style>
+		
+				<table width='100%' border='1' bordercolor='#dedede' cellpadding='0' cellspacing='0'>
+				<thead>
+				<tr align='center'>
+					<td style='background:#FFCC99;font-size:9pt' nowrap>번호</td>
+					<td style='background:#FFCC99;font-size:9pt' nowrap>상품코드</td>
+					<td style='background:#FFCC99;font-size:9pt' nowrap>상품명(옵션명)</td>
+					<td style='background:#FFCC99;font-size:9pt' nowrap>제조사</td>
+					<td style='background:#FFCC99;font-size:9pt' nowrap>링크</td>
+					<td style='background:#FFCC99;font-size:9pt' nowrap>수량</td>
+					<td style='background:#FFCC99;font-size:9pt' nowrap>단가</td>
+					<td style='background:#FFCC99;font-size:9pt' nowrap>합계금액</td>
+				</tr>
+		</thead>
+		
+		<tbody>
+
+		
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>23472</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>[NM-530SFS]SAFE 멀티탭 5구 개별 접지 3m</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>강원전자</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=23472</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>18,100</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>18,100</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>2</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>9838</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>전기용 절연테이프 19mm*10m(검정)</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>덕성</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=9838</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>2</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>580</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>1,160</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>3</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>12957470</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>스탠드형 삼각대 / 접이식 / 높이조절 / 각도조절 / 스마트폰 홀더 / 카메라 거치 [IF609]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>Coms</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=12957470</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>11,900</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>11,900</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>4</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>10913996</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>태블릿 삼각대(전용 케이스 제공) / 패드 삼각대 / 스탠드 / 거치대 [BT532]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>Coms</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=10913996</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>36,400</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>36,400</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>5</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>14849409</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>플라토 커팅 플라이어 [PLATO-170S]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>PLATO</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=14849409</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>7,200</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>7,200</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>6</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>1279308</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>아두이노 RFID 모듈 RFID-RC522 [SZH-EK040]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>OEM</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=1279308</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>3,100</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>3,100</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>7</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>15775931</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>13.56MHz RFID Card-F08 Chip （5pcs） [A073]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>M5Stack</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=15775931</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>2</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>3,500</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>7,000</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>8</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>15016491</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>PE 입간판 (미니 A자 표지판)<br />[옵션]1.옵션:출입금지</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>완성기업</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=15016491</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>5,400</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>5,400</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>9</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>15016491</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>PE 입간판 (미니 A자 표지판)<br />[옵션]1.옵션:점검중</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>완성기업</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=15016491</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>5,400</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>5,400</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>10</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>15659952</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>휴대용 터치모니터 P16T 포터블 정전식 39.6cm 듀얼 덱스 보조</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>제우스랩</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=15659952</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>215,200</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>215,200</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>11</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>15955</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>RFID KEY CHAIN 02</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>OEM</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=15955</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>3</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>2,000</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>6,000</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>12</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>12254286</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>멀티안내판-무지(300X1200X50mm)</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>서진안전</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=12254286</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>21,500</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>21,500</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>13</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>1278727</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>DFPlayer - A Mini MP3 Player [DFR0299]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>DFROBOT</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=1278727</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>7,900</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>7,900</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>14</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>15547280</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>Mini External USB Stereo Speaker [ada-3369]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>Adafruit</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=15547280</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>20,300</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>20,300</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>15</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>1324248</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>4CH Logic Level Converter (NER-15966)</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>NEROMART</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=1324248</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>3,600</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>3,600</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>16</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>1383859</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>8mm LED 모듈 5개 SET [ELB080015]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>YwRobot</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=1383859</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>5,900</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>5,900</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>17</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>1382763</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>고리형 벨크로/찍찍이 케이블타이 20x200mm (블랙) [SZ-XL036]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>SMG</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=1382763</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>2</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>800</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>1,600</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>18</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>13155248</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>Ultra microSDHC 32GB [SDSQUA4-032G-GN6MN]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>SanDisk</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=13155248</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>19,300</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>19,300</td>
+						</tr>
+
+				
+					<tr>
+
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>19</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>10916334</td>
+						<td style='font-size:9pt;text-align:left;width:400px' nowrap>택트 스위치 모듈 [ONE002]</td>
+						<td style='font-size:9pt;text-align:left;width:160px' nowrap>SMG-A</td>
+						<td style='font-size:9pt;text-align:center;width:350px' nowrap>http://www.devicemart.co.kr/goods/view?no=10916334</td>
+						
+						<td style='font-size:9pt;text-align:center;width:50px' nowrap>1</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>1,600</td>
+						<td style='font-size:9pt;text-align:center;width:100px' nowrap>1,600</td>
+						</tr>
+
+				</tbody>
+</table>
