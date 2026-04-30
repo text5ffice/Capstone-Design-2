@@ -44,7 +44,7 @@ class _StopDetectionScreenState extends State<StopDetectionScreen>
     _controller = StopDetectionController(
       workerId: widget.workerId,
       workerName: widget.workerName,
-      hardwareUrl: 'http://localhost:50243/', // TODO: 실제 주소로 변경
+      hardwareUrl: '192.168.1.108', // TODO: 실제 주소로 변경
       pushNotifier: MockPushNotifier(), // TODO: FcmPushNotifier로 교체
       onAlertTriggered: (event) {
         setState(() {
