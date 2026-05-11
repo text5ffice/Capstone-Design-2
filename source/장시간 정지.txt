@@ -1,0 +1,149 @@
+!pip install opencv-python-headless
+!pip install mysql-connector-python
+!pip install pyttsx3
+!pip install requests
+
+
+
+import cv2
+import time
+import numpy as np
+import requests
+import mysql.connector
+import pyttsx3
+
+# ================= 설정 =================
+STOP_THRESHOLD_SECONDS = 60
+MOTION_PIXEL_THRESHOLD = 500
+
+FCM_SERVER_KEY = "여기에_서버키"
+ADMIN_FCM_TOKEN = "앱_디바이스_토큰"
+
+CAMERA_LOCATION = {
+    "name": "1번 카메라 - 주출입구",
+    "lat": 37.5665,
+    "lng": 126.9780
+}
+
+TTS_MESSAGE = "경고. 장시간 정지가 감지되었습니다."
+
+# ================= DB 연결 =================
+db = mysql.connector.connect(
+    host="192.168.1.16",
+    user="dbuser211557",
+    password="ce1234",
+    database="dbuser211557"
+)
+cursor = db.cursor()
+
+# ================= TTS =================
+engine = pyttsx3.init()
+
+def play_tts():
+    engine.say(TTS_MESSAGE)
+    engine.runAndWait()
+
+# ================= 부저 =================
+def play_buzzer():
+    for _ in range(3):
+        print("삐용!! 🚨")
+        time.sleep(0.5)
+
+# ================= DB 저장 =================
+def save_event():
+    try:
+        db.ping(reconnect=True)
+        sql = """
+        INSERT INTO stop_events (camera_name, latitude, longitude, event_type, message)
+        VALUES (%s, %s, %s, %s, %s)
+        """
+        values = (
+            CAMERA_LOCATION["name"],
+            CAMERA_LOCATION["lat"],
+            CAMERA_LOCATION["lng"],
+            "STOP_DETECTED",
+            TTS_MESSAGE
+        )
+        cursor.execute(sql, values)
+        db.commit()
+        print("DB 저장 완료")
+    except mysql.connector.Error as e:
+        print(f"DB 저장 실패: {e}")
+        db.rollback()
+
+# ================= FCM 푸시 =================
+def send_push():
+    url = "https://fcm.googleapis.com/fcm/send"
+
+    headers = {
+        "Authorization": "key=" + FCM_SERVER_KEY,
+        "Content-Type": "application/json"
+    }
+
+    data = {
+        "to": ADMIN_FCM_TOKEN,
+        "notification": {
+            "title": "🚨 장시간 정지 감지",
+            "body": TTS_MESSAGE
+        },
+        "data": {
+            "lat": CAMERA_LOCATION["lat"],
+            "lng": CAMERA_LOCATION["lng"],
+            "camera": CAMERA_LOCATION["name"]
+        }
+    }
+
+    response = requests.post(url, headers=headers, json=data)
+    print("푸시 전송:", response.status_code)
+
+# ================= 이벤트 실행 =================
+def trigger_event():
+    print("⚠️ 정지 이벤트 발생")
+    play_tts()
+    play_buzzer()
+    save_event()
+    send_push()
+
+# ================= 영상 처리 =================
+cap = cv2.VideoCapture(0)
+
+ret, prev_frame = cap.read()
+prev_gray = cv2.cvtColor(prev_frame, cv2.COLOR_BGR2GRAY)
+
+last_motion_time = time.time()
+
+try:
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        diff = cv2.absdiff(prev_gray, gray)
+
+        _, thresh = cv2.threshold(diff, 25, 255, cv2.THRESH_BINARY)
+        motion_pixels = np.sum(thresh) / 255
+
+        # 움직임 있으면 시간 갱신
+        if motion_pixels > MOTION_PIXEL_THRESHOLD:
+            last_motion_time = time.time()
+
+        stop_time = time.time() - last_motion_time
+
+        # 60초 이상 정지
+        if stop_time > STOP_THRESHOLD_SECONDS:
+            trigger_event()
+            last_motion_time = time.time()  # 중복 방지
+
+        prev_gray = gray
+
+        print(f"정지 시간: {int(stop_time)}초")
+
+except KeyboardInterrupt:
+    print("프로그램 종료")
+
+finally:
+    cap.release()
+    cursor.close()
+    db.close()
+    print("자원 정리 완료")
