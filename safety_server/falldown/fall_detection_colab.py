@@ -375,8 +375,7 @@ def analyze_image(image_path):
     # Colab에서 바로 표시
     from IPython.display import Image, display
     display(Image(output_path))
-    
-    return output_path
+        return output_path
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
