@@ -1,0 +1,67 @@
+========================================
+  CAPSTONE-DESIGN-2 폴더별 설명
+========================================
+
+docs/
+  프로젝트 문서 자료 모음
+
+docs/diagrams/
+  설계도, 흐름도, 구성도 등 시각 자료
+  (시스템 설계도, 업무흐름도, 유스케이스, 메뉴구조도,
+   하드웨어 구성도, 소프트웨어 개념도, ER다이어그램, 화면설계서 등)
+
+docs/estimate/
+  견적서 및 장비 구매 관련 문서
+
+docs/research/
+  팀원별 사전 조사 자료
+  (제품 조사, 사례 조사, 출입 절차 조사 등)
+
+docs/presentation/
+  발표 및 시연 관련 문서
+  (발표 시연 시나리오, 시연 상세본 등)
+
+
+safety_server/
+  Flask 백엔드 서버 + AI 모듈 (Python)
+
+safety_server/Identity_Verification/
+  모듈1: NFC 신원확인
+  - app.py : Flask API 서버
+  - esp32_nfc_reader.ino : ESP32 아두이노 코드
+  - schema.sql : MySQL 테이블 스키마
+
+safety_server/falldown/
+  모듈4: 넘어짐 감지
+  - fall_detection_colab.py : YOLO v11-Pose 기반 넘어짐 감지
+
+safety_server/ (루트 파일)
+  - app.py : 메인 Flask 서버
+  - init_db.py : DB 초기화 스크립트
+  - jetson_sim.py : Jetson Nano 시뮬레이션
+
+
+safety_monitor_app/
+  Flutter 관리자 모바일 앱 (안전관리자/현장소장용)
+  - 실시간 푸시 알림 수신
+  - 홈 대시보드, 알림 목록, 알림 상세
+  - 작업자 관리, 통계, 위험구역 설정
+
+
+source/backend/capstone2/
+  모듈3: 위험구역 접근 감지
+  - zone_detector.py : 폴리곤 기반 구역 진입 판단
+  - zone_setup.py : 위험구역 설정
+  - homography.py : 좌표 변환
+  - main.py : 메인 실행 파일
+  - yolo_dummy.py : YOLO 테스트용
+
+source/worker_app/
+  Flutter 작업자 앱
+  - android/, ios/ : 플랫폼별 빌드 파일
+  - lib/ : 화면(screens) + 서비스(services)
+  - assets/sounds/ : 알림 사운드 파일
+
+
+old_archive/
+  이전 버전 백업 자료 (참고용)
