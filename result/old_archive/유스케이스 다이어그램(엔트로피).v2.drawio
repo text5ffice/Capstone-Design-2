@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="페이지-1" id="e-_nqCHpkAbGWm4Qd4sr">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="7680" pageHeight="4800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontColor=#333333;strokeColor=#9D9D9D;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="760" width="470" x="110" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-22" edge="1" parent="1" source="UifYIUpGMzc74R4DNT-r-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UifYIUpGMzc74R4DNT-r-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-23" edge="1" parent="1" source="UifYIUpGMzc74R4DNT-r-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nUFSva_3IhIf-mBo6SQA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-24" edge="1" parent="1" source="UifYIUpGMzc74R4DNT-r-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nUFSva_3IhIf-mBo6SQA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UifYIUpGMzc74R4DNT-r-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="작업자&lt;div&gt;(OP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UifYIUpGMzc74R4DNT-r-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="QR / NFC 인식&lt;div&gt;(QNR)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="170" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-11" edge="1" parent="1" source="UifYIUpGMzc74R4DNT-r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="UifYIUpGMzc74R4DNT-r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UifYIUpGMzc74R4DNT-r-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="수동 ID 입력&lt;div&gt;(MNI)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="390" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-13" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="사진 촬영&lt;div&gt;(PHC)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="170" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-12" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="재촬영 요청&lt;div&gt;(RPC)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="390" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-14" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;YOLOv8 부품/불량 분석&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DTA)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="250" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-15" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-16" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-18" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;Gemini 진단 + 매뉴얼 생성&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DMG)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="250" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-43" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="정상 메뉴얼 출력&lt;div&gt;(NMO)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="170" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-17" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="문제점 + 메뉴얼 출력&lt;div&gt;(FMO)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="390" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="경광등 점등 / OFF&lt;div&gt;(WLC)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="390" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-19" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-20" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="nUFSva_3IhIf-mBo6SQA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;이미지 + 진단 결과 저장&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DRS)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="250" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="진단 이력 조회&lt;div&gt;(DHV)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="170" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="통계 대시보드&lt;div&gt;(STD)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="390" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-27" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nUFSva_3IhIf-mBo6SQA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-29" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="nUFSva_3IhIf-mBo6SQA-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="660" />
+              <mxPoint x="160" y="740" />
+              <mxPoint x="455" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-25" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="관리자&lt;div&gt;(ADM)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-32" edge="1" parent="1" source="nUFSva_3IhIf-mBo6SQA-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="nUFSva_3IhIf-mBo6SQA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-31" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="아두이노&lt;div&gt;(ARD)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="620" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪extend≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="315" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪extend≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="315" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪include≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪include≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪include≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪include≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪include≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪include≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪include≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="nUFSva_3IhIf-mBo6SQA-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: start; text-wrap-mode: nowrap;&quot;&gt;≪include≫&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="630" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

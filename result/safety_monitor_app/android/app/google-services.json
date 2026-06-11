@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "574487045582",
+    "project_id": "safetymonitor-44947",
+    "storage_bucket": "safetymonitor-44947.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574487045582:android:b65b74964d9183496e379f",
+        "android_client_info": {
+          "package_name": "com.example.safety_monitor_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQR9e0aty20D3JNw7m4GIvQzhXwtfAuBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
